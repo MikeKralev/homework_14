@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10 новейших кинолент по жанру</title>
+</head>
+<body>
+{% for movie in list%}
+    <h3>{{ movie.title }}</h3>
+    <p>{{ movie.description }}</p>
+{% endfor %}
+</body>
+</html>

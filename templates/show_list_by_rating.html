@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Киноленты по рейтингу</title>
+</head>
+<body>
+{% for movie in list%}
+    <h3>{{ movie.title }}</h3>
+    <p>{{ movie.rating }}</p>
+    <p>{{ movie.description }}</p>
+{% endfor %}
+</body>
+</html>
